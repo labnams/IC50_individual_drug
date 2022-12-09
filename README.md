@@ -2,12 +2,10 @@
 - This is the code repository for IC50 prediction model for individual drug
 
 # Usage
-- Jupyter notebook files of python coding for each scenarios are stored in Model_generation_validation
-- All the dataset and pre-defined models of each scenarios can be downloaded from [here (IC50evaluation/Dataset, IC50evaluation/Pre-defined_models)](https://mega.nz/#F!CeYGDKyS!uqkmWJ4E2XSGJp_C2VO2gg)
+- Jupyter notebook files of python coding for each setting are stored in Model_generation
+- All the dataset and pre-defined models of each scenarios can be downloaded from [here (IC50_individual_drug/Datasets, IC50_individual_drug/Models)](https://mega.nz/folder/SXhXTKYK#T1skByytOWobMHa7Hv3j6A)
 - You should download each dataset and change the path in each code (path for dataset, model_output_folder, result_output_folder, etc)
 - Please set and check the file path (workdir) where dataset and training-test set split file located and for model and output file in each code.
-- Please refer to the annotations in each code.
-
 
 # Code description
 - *.ipynb : the jupyter notebook files (python 3) to construct prediction model and show validation result
